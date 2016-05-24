@@ -1,8 +1,6 @@
 #ifndef COMMUNICATION_H
 #define COMMUNICATION_H
-//#include "../messageblock/messageblock.h"
-#include "../messageblock/packet.h"
-//#include "../Cstring/Cstring.h"
+#include "../CarProjCommon/CarProjCommon.h"
 #include <Adafruit_WINC1500Client.h>
 
 enum CommunicationStatus{ComSucess,ComWifiDisconnect,ComServerDisconnect,BadPacket,ComError};
